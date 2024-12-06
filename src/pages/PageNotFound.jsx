@@ -1,12 +1,7 @@
-import { NavLink } from "react-router-dom";
-
-function PageNotFound() {
+export default function PageNotFound() {
   return (
     <div>
-      <NavLink />
-      <h2>Page not Found</h2>
+      <h1>Page not found 😢</h1>
     </div>
   );
 }
-
-export default PageNotFound;
